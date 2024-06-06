@@ -58,8 +58,8 @@ myAWSIoTMQTTClient.configureCredentials(rootCAPath, privateKeyPath, certificateP
 # Connect and subscribe to AWS IoT
 myAWSIoTMQTTClient.connect()
 
-thing = "teste2"
-topic = "dispositivos/teste2/reportar"
+thing = "MeuDispositivoIoT"
+topic = "dispositivos/MeuDispositivoIoT/reportar"
 
 # Publish to the same topic in a loop forever
 while True:
